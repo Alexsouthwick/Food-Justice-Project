@@ -25,6 +25,13 @@ li {
     font-weight: bold;
 }
 
+#name {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 6px;
+    color: #464748;
+}
+
 
 body {
     background-color: #D8ECFC;
