@@ -18,33 +18,11 @@ li {
     font-family: "Trebuchet MS", Helvetica;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
     font-size: 30px;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
     font-weight: bold;
-}
-
-li a {
-    display: block;
-    color:#464748;
-    font-style: oblique;
-    font-family: "Trebuchet MS", Helvetica, Serif;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    font-size: 27px;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-li a:hover {
-    color: #A020F0;
 }
 
 
@@ -106,13 +84,55 @@ p{
     text-align: center;
 }
 
+
+
 .image img{
     width:40%;
     height: auto;
-    margin-left: 425px;
+    margin-left: 395px;
     border: 2px solid ;
+    display:block;
 
 
+}
+
+#image img{
+    width:27%;
+    height:auto;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+#safeway img{
+    width:25%;
+    border-radius: 10%;
+    border:1px solid;
+    display:inline;
+    margin-left: 40px;
+    margin-bottom: -362px;
+}
+#saver img{
+    width:25%;
+    border-radius: 10%;
+    border:1px solid;
+    display:inline;
+    margin-left: 955px;
+    margin-top: -1000px;
+}
+.diabetes {
+    width:1000px;
+    margin-left: 270px;
+    margin-top: 5px;
+    font-size: 17px;
+    display: inline-block;
+    margin-bottom: -30px;
+}
+
+#wrap {
+    text-align: center;
+    display: inline-block;
+    margin-top: -100px;
+    width:500px;
 }
 
 .graph img{
@@ -125,17 +145,12 @@ p{
 
 
 .table img{
-    width: 23%;
+    width: 27%;
     height:auto;
-    margin-left: 205px;
+    margin-left: 200px;
     padding-top: 20px;
 }
 
-#table2 img{
-    width:50%;
-    height:auto;
-    margin-left: 100px;
-}
 
  #pricetable img{
     width:50%;
@@ -143,39 +158,14 @@ p{
     padding-left: 320px;
  }
 
-button{
-    width:200px;
-    height:100px;
-    background-color: #1A5276;
-    border-radius: 10%;
-    border: 2px solid #2574A9;
-    color:white;
-    font-size: 20px;
-    border-radius: 10%;
-    margin-left:630px;
-}
-#button{
-    padding: 10px;
-    display:inline-block;
-    font-size: 20px;
-    background-color: white;
-    margin: 20px;
-    margin-left: 570px;
+ h5{
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -10px;
+ }
+
+.sources {
+    font-size: 13px;
 
 }
-
-#button a{
-    text-decoration: none;
-    color: black;
-}
-
-#button:hover {
-    background-color: #1B2631;
-}
-
-#button a:hover {
-    color: white;
-}
-
-
-
